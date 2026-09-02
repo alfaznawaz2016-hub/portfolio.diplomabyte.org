@@ -1,0 +1,27 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+index.html
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Vite specific
+.vite/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
