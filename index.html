@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DiplomaByte - Power AI</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="hero-container">
+    <!-- Background Video Wrapper -->
+    <div class="video-wrapper">
+      <video
+        id="hero-video"
+        src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_065045_c44942da-53c6-4804-b734-f9e07fc22e08.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+      ></video>
+    </div>
+
+    <!-- Blurred Overlay Shape -->
+    <div class="blur-overlay"></div>
+
+    <!-- Main Content -->
+    <div class="content-wrapper">
+      
+      <!-- Navbar -->
+      <nav class="navbar">
+        <!-- Left: Logo -->
+        <div class="navbar-left">
+          <img src="assets/logo.png" alt="DiplomaByte" class="logo" onerror="this.style.display='none'" />
+        </div>
+
+        <!-- Center: Nav Items -->
+        <div class="navbar-center">
+          <button class="nav-item">
+            Features
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <button class="nav-item">Solutions</button>
+          <button class="nav-item">Plans</button>
+          <button class="nav-item">
+            Learning
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Right: Sign Up Button -->
+        <button class="btn-hero-secondary btn-signup">Sign Up</button>
+      </nav>
+
+      <!-- Gradient Divider -->
+      <div class="gradient-divider"></div>
+
+      <!-- Hero Content -->
+      <main class="hero-content">
+        <h1 class="headline">
+          <span class="headline-plain">Power </span>
+          <span class="headline-gradient">AI</span>
+        </h1>
+
+        <p class="subtitle">
+          The most powerful AI ever deployed<br />in talent acquisition
+        </p>
+
+        <button class="btn-hero-secondary btn-cta">Schedule a Consult</button>
+      </main>
+
+      <!-- Logo Marquee -->
+      <footer class="marquee-footer">
+        <div class="marquee-container">
+          <div class="marquee-text">
+            Relied on by brands<br />across the globe
+          </div>
+          
+          <div class="marquee-wrapper">
+            <div class="marquee-track" id="marquee-track">
+              <!-- Logos will be duplicated via JS for seamless loop -->
+              <div class="marquee-logo">
+                <div class="liquid-glass logo-icon">V</div>
+                <span class="logo-name">Vortex</span>
+              </div>
+              <div class="marquee-logo">
+                <div class="liquid-glass logo-icon">N</div>
+                <span class="logo-name">Nimbus</span>
+              </div>
+              <div class="marquee-logo">
+                <div class="liquid-glass logo-icon">P</div>
+                <span class="logo-name">Prysma</span>
+              </div>
+              <div class="marquee-logo">
+                <div class="liquid-glass logo-icon">C</div>
+                <span class="logo-name">Cirrus</span>
+              </div>
+              <div class="marquee-logo">
+                <div class="liquid-glass logo-icon">K</div>
+                <span class="logo-name">Kynder</span>
+              </div>
+              <div class="marquee-logo">
+                <div class="liquid-glass logo-icon">H</div>
+                <span class="logo-name">Halcyn</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
